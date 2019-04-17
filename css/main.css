@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, green , greenyellow);
+    
+}
+
+.quote{
+    max-width: 960px;
+}
+/* heading section  */
+.header{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+span{
+    border: 3px solid white;
+    padding: 5px;
+    background-color: green;
+
+}
+
+/*Quote and author section */
+
+.content{
+    
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/*Button section */
+
+button{
+    margin: 10px auto 0 auto;
+    border: none;
+    font-size: 1.5em;
+    background-color: aquamarine;
+    display: block;
+}
+
+.changer:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
