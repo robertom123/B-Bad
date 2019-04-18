@@ -49,3 +49,30 @@ button{
     cursor: pointer;
 }
 
+img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+
+@media only screen and (max-width: 425px){
+    .header{
+        font-size: 13px;
+        padding: 1px 0;
+    }
+
+    img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .content{
+        padding: 2px;
+        font-size: 10px;
+        margin-top: -25px;
+    }
+    h3{
+        font-size: 13px;
+    }
+}
