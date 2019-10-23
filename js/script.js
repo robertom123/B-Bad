@@ -1,11 +1,12 @@
 const url = "https://breaking-bad-quotes.herokuapp.com/v1/quotes";
-
+let load = document.getElementById('load');
 fetch(url)
 .then(function(response) {
     if(response.status !== 200){
         alert("wrong");
     }
     else{
+        load.style.display = 'none';
         response.json().then(function(data){
             data.forEach(quote => {
                 //Quote div
